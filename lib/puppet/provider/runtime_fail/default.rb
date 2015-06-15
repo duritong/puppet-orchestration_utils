@@ -1,5 +1,5 @@
 Puppet::Type.type(:runtime_fail).provide(
-  :default,
+  :default
 ) do
 
   def ready

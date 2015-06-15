@@ -3,7 +3,7 @@ require 'jiocloud/utils'
 include Jiocloud::Utils
 
 Puppet::Type.type(:consul_kv_mysql_slave_update).provide(
-  :default,
+  :default
 ) do
 
   # Without initvars commands won't work.

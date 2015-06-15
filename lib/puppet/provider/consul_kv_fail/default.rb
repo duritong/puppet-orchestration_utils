@@ -1,5 +1,5 @@
 Puppet::Type.type(:consul_kv_fail).provide(
-  :default,
+  :default
 ) do
 
   def connect(url)

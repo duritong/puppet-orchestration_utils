@@ -1,7 +1,7 @@
 require 'jiocloud/utils'
 include Jiocloud::Utils
 Puppet::Type.type(:consul_kv).provide(
-  :default,
+  :default
 ) do
 
   def kvurl
